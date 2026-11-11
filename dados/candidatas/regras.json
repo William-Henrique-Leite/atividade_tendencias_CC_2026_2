@@ -1,0 +1,285 @@
+{
+  "model": "gemma3:latest",
+  "rules": [
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/caput/regra-1cbdea7822db3c55",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/caput",
+      "situation_id": "frequencia-de-doacoes",
+      "situation": "Doador do sexo masculino",
+      "condition": "Intervalo de doações de sangue total no período de doze meses",
+      "effect": "Frequência máxima permitida: quatro doações",
+      "evidence": "Art. 38. A frequência máxima admitida, no intervalo de doze meses, é de quatro doações de sangue total para o homem e de três doações para a mulher, exceto em circunstâncias especiais, que devem ser avaliadas e aprovadas pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/caput/regra-ba433400c32179ed",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/caput",
+      "situation_id": "frequencia-de-doacoes",
+      "situation": "Doadora do sexo feminino",
+      "condition": "Intervalo de doações de sangue total no período de doze meses",
+      "effect": "Frequência máxima permitida: três doações",
+      "evidence": "Art. 38. A frequência máxima admitida, no intervalo de doze meses, é de quatro doações de sangue total para o homem e de três doações para a mulher, exceto em circunstâncias especiais, que devem ser avaliadas e aprovadas pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/caput/regra-8554ef525cedef93",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/caput",
+      "situation_id": "frequencia-de-doacoes",
+      "situation": "Doador do sexo masculino",
+      "condition": "Intervalo mínimo entre doações de sangue total",
+      "effect": "Tempo mínimo: dois meses",
+      "evidence": "Art. 38. A frequência máxima admitida, no intervalo de doze meses, é de quatro doações de sangue total para o homem e de três doações para a mulher, exceto em circunstâncias especiais, que devem ser avaliadas e aprovadas pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/caput/regra-d2bcbe8fc82c620a",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/caput",
+      "situation_id": "frequencia-de-doacoes",
+      "situation": "Doadora do sexo feminino",
+      "condition": "Intervalo mínimo entre doações de sangue total",
+      "effect": "Tempo mínimo: três meses",
+      "evidence": "Art. 38. A frequência máxima admitida, no intervalo de doze meses, é de quatro doações de sangue total para o homem e de três doações para a mulher, exceto em circunstâncias especiais, que devem ser avaliadas e aprovadas pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/caput/regra-6823517c243fe1f6",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/caput",
+      "situation_id": "frequencia-de-doacoes",
+      "situation": "Doador (autólogo)",
+      "condition": "Tipo de doação",
+      "effect": "Frequência e intervalo entre doações devem ser programados pelo responsável técnico do serviço de hemoterapia",
+      "evidence": "Art. 38. A frequência máxima admitida, no intervalo de doze meses, é de quatro doações de sangue total para o homem e de três doações para a mulher, exceto em circunstâncias especiais, que devem ser avaliadas e aprovadas pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/par-1/regra-ee0456230cc251c7",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/par-1",
+      "situation_id": "intervalo-entre-doacoes",
+      "situation": "Doação de sangue total por homens",
+      "condition": "Tipo de doador: Homem",
+      "effect": "Intervalo mínimo entre doações de sangue total: 2 meses",
+      "evidence": "§ 1º O intervalo mínimo entre doações de sangue total deve ser de dois meses para os homens e de três meses para as mulheres.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/par-1/regra-0e7041a1940213ed",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/par-1",
+      "situation_id": "intervalo-entre-doacoes",
+      "situation": "Doação de sangue total por mulheres",
+      "condition": "Tipo de doador: Mulher",
+      "effect": "Intervalo mínimo entre doações de sangue total: 3 meses",
+      "evidence": "§ 1º O intervalo mínimo entre doações de sangue total deve ser de dois meses para os homens e de três meses para as mulheres.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-38/par-2/regra-689f99ac3b3258bd",
+      "chunk_id": "portaria-11685-2026/iv-b/art-38/par-2",
+      "situation_id": "doacao-autologa",
+      "situation": "Doador autólogo",
+      "condition": "Tipo de doação: autóloga",
+      "effect": "A frequência e o intervalo entre as doações devem ser programados de acordo com o protocolo aprovado pelo responsável técnico do serviço de hemoterapia.",
+      "evidence": "§ 2º Em caso de doador autólogo, a frequência e o intervalo entre as doações devem ser programados de acordo com o protocolo aprovado pelo responsável técnico do serviço de hemoterapia.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/caput/regra-7f138be45b3e6811",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/caput",
+      "situation_id": "idade",
+      "situation": "Idade do doador de sangue ou componentes",
+      "condition": "Idade entre dezesseis anos completos e sessenta e nove anos, onze meses e vinte e nove dias",
+      "effect": "Dador é apto a doar",
+      "evidence": "Art. 39. O doador de sangue ou componentes deverá ter idade entre dezesseis anos completos e sessenta e nove anos, onze meses e vinte e nove dias.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-1/regra-06376b90aa2f7765",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-1",
+      "situation_id": "consentimento-do-responsavel",
+      "situation": "Candidatos à doação de sangue com idade entre dezesseis e dezoito anos incompletos anos",
+      "condition": "Idade entre dezesseis e dezoito anos incompletos anos",
+      "effect": "Devem trazer consentimento formal, por escrito, do seu responsável legal para cada doação que realizar, juntamente com a cópia da identidade da pessoa que assina o documento (a cópia não precisa ser autenticada)",
+      "evidence": "§ 1º Os candidatos à doação de sangue com idade entre dezesseis e dezoito anos incompletos anos devem trazer consentimento formal, por escrito, do seu responsável legal para cada doação que realizar, juntamente com a cópia da identidade da pessoa que assina o documento (a cópia não precisa ser autenticada).",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-2/regra-f3abdc5c24991bb1",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-2",
+      "situation_id": "consentimento-do-responsavel",
+      "situation": "Candidatos à doação de sangue com idade entre dezesseis e dezoito anos incompletos anos",
+      "condition": "Idade entre dezesseis e dezoito anos incompletos anos",
+      "effect": "Devem trazer consentimento formal, por escrito, do seu responsável legal para cada doação que realizar, juntamente com a cópia da identidade da pessoa que assina o documento.",
+      "evidence": "§ 2º O consentimento do responsável legal de que trata o § 1º deve incluir a autorização para o cumprimento das exigências e responsabilidades estabelecidas aos demais doadores, bem como para submeter-se à triagem clínica e realizar e receber os resultados da triagem laboratorial, na forma prevista no art. 33.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-2/regra-2a1ee5d9dacc41ab",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-2",
+      "situation_id": "consentimento-do-responsavel",
+      "situation": "Consentimento do responsável legal",
+      "condition": "Incluir a autorização para o cumprimento das exigências e responsabilidades estabelecidas aos demais doadores, bem como para submeter-se à triagem clínica e realizar e receber os resultados da triagem laboratorial, na forma prevista no art. 33.",
+      "effect": "Autorização para a triagem clínica e realização/recebimento dos resultados da triagem laboratorial, conforme art. 33.",
+      "evidence": "§ 2º O consentimento do responsável legal de que trata o § 1º deve incluir a autorização para o cumprimento das exigências e responsabilidades estabelecidas aos demais doadores, bem como para submeter-se à triagem clínica e realizar e receber os resultados da triagem laboratorial, na forma prevista no art. 33.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-3/regra-6bdbc776712577d4",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-3",
+      "situation_id": "primeira-doacao",
+      "situation": "Idade mínima para a primeira doação",
+      "condition": "Doador deve ter idade igual ou superior a sessenta anos, onze meses e vinte e nove dias.",
+      "effect": "Permissão para realizar a primeira doação.",
+      "evidence": "§ 3º O limite para a primeira doação será de sessenta anos, onze meses e vinte e nove dias.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-4/regra-537640771b7b7692",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-4",
+      "situation_id": "excecao-de-idade",
+      "situation": "Idade do doador",
+      "condition": "Idade inferior a dezesseis anos ou superior a sessenta anos, onze meses e vinte e nove dias na primeira doação",
+      "effect": "Será aceito como doador após avaliação pelo médico do serviço de hemoterapia, com avaliação dos riscos, benefícios e apresentação de relatório que justifique a necessidade da doação, registrando-a na ficha do doador.",
+      "evidence": "§ 4º Em casos de necessidades tecnicamente justificáveis, o candidato à doação de sangue cuja idade seja inferior a dezesseis anos ou superior a sessenta anos, onze meses e vinte e nove dias na primeira doação, será aceito como doador após avaliação pelo médico do serviço de hemoterapia, com avaliação dos riscos, benefícios e apresentação de relatório que justifique a necessidade da doação, registrando-a na ficha do doador.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-55c752b6b39b3dbc",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Doador de sangue ou componentes",
+      "condition": "Idade entre dezesseis anos completos e sessenta e nove anos, onze meses e vinte e nove dias.",
+      "effect": "Possibilidade de doação.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-051228eca7807b34",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Candidatos com idade entre dezesseis e dezoito anos",
+      "condition": "Necessidade de consentimento formal, por escrito, do responsável legal para cada doação, juntamente com a cópia da identidade da pessoa que assina o documento.",
+      "effect": "Autorização para doação.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-812948aff0ff33dd",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Consentimento do responsável legal",
+      "condition": "Incluir a autorização para o cumprimento das exigências e responsabilidades estabelecidas aos demais doadores, bem como para submeter-se à triagem clínica e realizar e receber os resultados da triagem laboratorial, na forma prevista no art. 33.",
+      "effect": "Garantia de cumprimento das normas e procedimentos.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-4075323ba91d564d",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Primeira doação",
+      "condition": "Limite para a primeira doação será de sessenta anos, onze meses e vinte e nove dias.",
+      "effect": "Restrição à primeira doação.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-6a827b62b091ae13",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Doador com idade inferior a dezesseis anos ou superior a sessenta anos, onze meses e vinte e nove dias",
+      "condition": "Avaliação pelo médico do serviço de hemoterapia, com avaliação dos riscos, benefícios e apresentação de relatório que justifique a necessidade da doação.",
+      "effect": "Aceitação como doador após avaliação médica.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-39/par-5/regra-3b28ace26a9f8546",
+      "chunk_id": "portaria-11685-2026/iv-b/art-39/par-5",
+      "situation_id": "doacao-de-repeticao",
+      "situation": "Doador de repetição com idade superior a setenta anos",
+      "condition": "Idade superior a setenta anos.",
+      "effect": "Permissão para continuidade da doação após avaliação médica pelo serviço de hemoterapia.",
+      "evidence": "§ 5º Será permitido aos doadores de repetição com idade superior a setenta anos, a continuidade da doação, após avaliação médica pelo serviço de hemoterapia,",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/caput/regra-7dff09b708b2e7cb",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/caput",
+      "situation_id": "peso",
+      "situation": "Condição:",
+      "condition": "O candidato deve ter, no mínimo, peso de 50 kg (cinquenta quilogramas).",
+      "effect": "Ser selecionado para doação.",
+      "evidence": "Art. 40. Para ser selecionado para doação, o candidato deve ter, no mínimo, peso de 50 kg (cinquenta quilogramas).",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-1/regra-948df6c4cc824bc8",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-1",
+      "situation_id": "peso",
+      "situation": "Candidatos com peso abaixo de 50 kg (cinquenta quilogramas)",
+      "condition": "Peso inferior a 50 kg (cinquenta quilogramas)",
+      "effect": "Podem ser aceitos para fins de doação após avaliação médica, com as seguintes condições adicionais:",
+      "evidence": "§ 1º Candidatos com peso abaixo de 50 kg (cinquenta quilogramas) poderão ser aceitos para fins de doação após avaliação médica, desde que o volume coletado seja ajustado ao máximo de 8mL/kg para mulheres e 9 mL/kg para homens e o volume do anticoagulante na bolsa de coleta seja proporcional ao volume a ser coletado, respeitadas as demais determinações deste Anexo.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-1/regra-6b33263d6ed61809",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-1",
+      "situation_id": "peso",
+      "situation": "Volume coletado",
+      "condition": "Ajustado ao máximo de 8mL/kg para mulheres e 9 mL/kg para homens",
+      "effect": "Volume coletado",
+      "evidence": "§ 1º Candidatos com peso abaixo de 50 kg (cinquenta quilogramas) poderão ser aceitos para fins de doação após avaliação médica, desde que o volume coletado seja ajustado ao máximo de 8mL/kg para mulheres e 9 mL/kg para homens e o volume do anticoagulante na bolsa de coleta seja proporcional ao volume a ser coletado, respeitadas as demais determinações deste Anexo.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-1/regra-78ed9d5a95a8bf01",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-1",
+      "situation_id": "peso",
+      "situation": "Anticoagulante na bolsa de coleta",
+      "condition": "Volume proporcional ao volume a ser coletado",
+      "effect": "Volume do anticoagulante na bolsa de coleta",
+      "evidence": "§ 1º Candidatos com peso abaixo de 50 kg (cinquenta quilogramas) poderão ser aceitos para fins de doação após avaliação médica, desde que o volume coletado seja ajustado ao máximo de 8mL/kg para mulheres e 9 mL/kg para homens e o volume do anticoagulante na bolsa de coleta seja proporcional ao volume a ser coletado, respeitadas as demais determinações deste Anexo.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-1/regra-648aeb10209435eb",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-1",
+      "situation_id": "peso",
+      "situation": "Respeito às demais determinações",
+      "condition": "Nenhuma",
+      "effect": "Respeito às demais determinações deste Anexo",
+      "evidence": "§ 1º Candidatos com peso abaixo de 50 kg (cinquenta quilogramas) poderão ser aceitos para fins de doação após avaliação médica, desde que o volume coletado seja ajustado ao máximo de 8mL/kg para mulheres e 9 mL/kg para homens e o volume do anticoagulante na bolsa de coleta seja proporcional ao volume a ser coletado, respeitadas as demais determinações deste Anexo.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-2/regra-c8806cd2415df859",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-2",
+      "situation_id": "perda-de-peso",
+      "situation": "Candidato à doação",
+      "condition": "Perda de peso inexplicável superior a 10% da massa corporal",
+      "effect": "Não será selecionado para doação",
+      "evidence": "§ 2º Não serão selecionados os candidatos à doação que apresentarem perda de peso inexplicável superior a 10% (dez por cento) da massa corporal nos três meses que antecederem à doação.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-2/regra-8d8e464ef69d75c8",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-2",
+      "situation_id": "perda-de-peso",
+      "situation": "Perda de peso inexplicável",
+      "condition": "Superior a 10% da massa corporal",
+      "effect": "Não será selecionado para doação",
+      "evidence": "§ 2º Não serão selecionados os candidatos à doação que apresentarem perda de peso inexplicável superior a 10% (dez por cento) da massa corporal nos três meses que antecederem à doação.",
+      "status": "pendente_de_revisao"
+    },
+    {
+      "id": "portaria-11685-2026/iv-b/art-40/par-2/regra-1ae23e7fd7e8c022",
+      "chunk_id": "portaria-11685-2026/iv-b/art-40/par-2",
+      "situation_id": "perda-de-peso",
+      "situation": "Perda de peso inexplicável",
+      "condition": "Nos três meses que antecedem à doação",
+      "effect": "Não será selecionado para doação",
+      "evidence": "§ 2º Não serão selecionados os candidatos à doação que apresentarem perda de peso inexplicável superior a 10% (dez por cento) da massa corporal nos três meses que antecederem à doação.",
+      "status": "pendente_de_revisao"
+    }
+  ]
+}
