@@ -1,0 +1,212 @@
+[
+  {
+    "chunk_id": "corpo/texto/0001",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "chunk_id": "corpo/art-1/0002",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "chunk_id": "corpo/art-2/0003",
+    "error": "timed out"
+  },
+  {
+    "chunk_id": "I/art-51/0071",
+    "entities": [
+      {
+        "name": "Controladores de voo",
+        "type": "PROFISSIONAL",
+        "canonical_key": "profissional/controladores de voo"
+      },
+      {
+        "name": "trabalho em andaimes",
+        "type": "ATIVIDADE",
+        "canonical_key": "atividade/trabalho em andaimes"
+      }
+    ],
+    "relations": [],
+    "rejected": [
+      {
+        "source": "Controladores de voo",
+        "target": "trabalho em andaimes",
+        "type": "NÃO_RELACIONADO_A_DOACAO_DE_SANGUE_OU_OUTRO_TEMA_FORNECIDO_NO_CONTEXTO_ORIGINAL_PARA_ESTE_PROBLEMA_ESPECIFICO_ASSUMIR_QUE_É_APENAS_UM_EXEMPLO_DE_FORMATO_SEGUIMENTO_DO_INPUT_ORIGINAL_SEM_SIGNIFICADO_REAL_PARA_A_TAREFA_PRINCIPAL_DE_EXTRAÇÃO_DE_DONACAO_DE_SANGUE",
+        "evidence": "V- Controladores de voo"
+      }
+    ],
+    "status": "validado_estruturalmente_revisao_semantica_pendente"
+  },
+  {
+    "chunk_id": "I/art-203/0259",
+    "entities": [
+      {
+        "name": "medicamento",
+        "type": "ITEM",
+        "canonical_key": "item/medicamento"
+      },
+      {
+        "name": "bolsa do componente sanguíneo",
+        "type": "LOCAL",
+        "canonical_key": "local/bolsa do componente sanguíneo"
+      },
+      {
+        "name": "componente sanguíneo",
+        "type": "MATERIAL",
+        "canonical_key": "material/componente sanguíneo"
+      },
+      {
+        "name": "linha venosa",
+        "type": "EQUIPAMENTO",
+        "canonical_key": "equipamento/linha venosa"
+      },
+      {
+        "name": "solução de cloreto de sódio a 0,9%",
+        "type": "SOLUÇÃO",
+        "canonical_key": "solução/solução de cloreto de sódio a 0,9%"
+      },
+      {
+        "name": "casos excepcionais",
+        "type": "CONDIÇÃO",
+        "canonical_key": "condição/casos excepcionais"
+      }
+    ],
+    "relations": [
+      {
+        "source": "medicamento",
+        "target": "bolsa do componente sanguíneo",
+        "type": "NAO_PODE_SER_ADICIONADO_A",
+        "evidence": "Nenhum medicamento será adicionado à bolsa do componente sanguíneo"
+      }
+    ],
+    "rejected": [],
+    "status": "validado_estruturalmente_revisao_semantica_pendente"
+  },
+  {
+    "chunk_id": "I/art-51/0070",
+    "entities": [
+      {
+        "name": "ocupações",
+        "type": "CATEGORIA_ATIVIDADE",
+        "canonical_key": "categoria_atividade/ocupações"
+      },
+      {
+        "name": "atividades de lazer",
+        "type": "CATEGORIA_ATIVIDADE",
+        "canonical_key": "categoria_atividade/atividades de lazer"
+      },
+      {
+        "name": "esportes",
+        "type": "CATEGORIA_ATIVIDADE",
+        "canonical_key": "categoria_atividade/esportes"
+      },
+      {
+        "name": "pilotagem de avião",
+        "type": "OCUPACAO",
+        "canonical_key": "ocupacao/pilotagem de avião"
+      },
+      {
+        "name": "helicóptero",
+        "type": "VEICULO",
+        "canonical_key": "veiculo/helicóptero"
+      },
+      {
+        "name": "condução de veículos de grande porte",
+        "type": "ATIVIDADE_DE_RISCO",
+        "canonical_key": "atividade_de_risco/condução de veículos de grande porte"
+      },
+      {
+        "name": "ônibus",
+        "type": "VEÍCULO",
+        "canonical_key": "veículo/ônibus"
+      },
+      {
+        "name": "caminhões",
+        "type": "VEÍCULO",
+        "canonical_key": "veículo/caminhões"
+      },
+      {
+        "name": "trens",
+        "type": "VEÍCULO",
+        "canonical_key": "veículo/trens"
+      },
+      {
+        "name": "operação de maquinário de alto risco",
+        "type": "OCUPAÇÃO",
+        "canonical_key": "ocupação/operação de maquinário de alto risco"
+      },
+      {
+        "name": "indústria",
+        "type": "SETOR_ECONOMICO",
+        "canonical_key": "setor_economico/indústria"
+      },
+      {
+        "name": "construção civil",
+        "type": "SETOR_ECONOMICO",
+        "canonical_key": "setor_economico/construção civil"
+      }
+    ],
+    "relations": [
+      {
+        "source": "ocupações",
+        "target": "atividades de lazer",
+        "type": "NAO_SE_APLICAM_JUNTAS",
+        "evidence": "ocupações, atividades de lazer ou esportes que ofereçam riscos para si ou para outrem"
+      },
+      {
+        "source": "ocupações",
+        "target": "esportes",
+        "type": "NAO_SE_APLICAM_JUNTAS",
+        "evidence": "ocupações, atividades de lazer ou esportes que ofereçam riscos para si ou para outrem"
+      },
+      {
+        "source": "atividades de lazer",
+        "target": "esportes",
+        "type": "NAO_SE_APLICAM_JUNTAS",
+        "evidence": "ocupações, atividades de lazer ou esportes que ofereçam riscos para si ou para outrem"
+      },
+      {
+        "source": "condução de veículos de grande porte",
+        "target": "ônibus",
+        "type": "EXEMPLO_DE_RISCO",
+        "evidence": "II - condução de veículos de grande porte, como ônibus, caminhões e trens;"
+      },
+      {
+        "source": "condução de veículos de grande porte",
+        "target": "caminhões",
+        "type": "EXEMPLO_DE_RISCO",
+        "evidence": "II - condução de veículos de grande porte, como ônibus, caminhões e trens;"
+      },
+      {
+        "source": "condução de veículos de grande porte",
+        "target": "trens",
+        "type": "EXEMPLO_DE_RISCO",
+        "evidence": "II - condução de veículos de grande porte, como ônibus, caminhões e trens;"
+      },
+      {
+        "source": "operação de maquinário de alto risco",
+        "target": "indústria",
+        "type": "EXEMPLO_DE_RISCO",
+        "evidence": "III - operação de maquinário de alto risco, como na indústria e construção civil;"
+      },
+      {
+        "source": "operação de maquinário de alto risco",
+        "target": "construção civil",
+        "type": "EXEMPLO_DE_RISCO",
+        "evidence": "III - operação de maquinário de alto risco, como na indústria e construção civil;"
+      }
+    ],
+    "rejected": [
+      {
+        "source": "pilotagem de avião",
+        "target": "helicóptero",
+        "type": "RISCO_ASSOCIADO_A_ATIVIDADE_PROFISSIONALMENTE_PERIGOSO_PARA_OUTREM_OU_SIRA_REQUISITO_DE_INTERRUPCAO_APOS_DOACAO_COM_CONDICAO_ESPECIFICA_DE_INTERRUPCAO_MINIMO_DE_DOZE_HORAS_APOS_A_DOACAO_SE_FOR_OCUPACAO_OU_ATIVIDADE_DE_LAZER_OU_ESPORTE_QUE_OFERECA_RISCO_PARA_SI_OU_PARA_OUTREM",
+        "evidence": "pilotagem de avião ou helicóptero"
+      }
+    ],
+    "status": "reprovado_na_revisao_semantica"
+  },
+  {
+    "chunk_id": "IV/interno-3/texto/0369",
+    "error": "LM Studio HTTP 400: {\"error\":\"Engine protocol predict request failed: fetch failed\"}"
+  }
+]
